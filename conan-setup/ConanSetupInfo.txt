@@ -1,0 +1,36 @@
+What is Conan ?
+- Conan is dependency management framework for c++, it is likes maven for java, pip for python and npm for react.
+
+Conan setup steps:
+1. You need to add conan in your IDE or just install conan on your system.
+2. You need to add conanfile.txt file in your project and add the dependency for your project.
+******************************
+[requires]
+zlib/1.2.11
+
+[generators]
+cmake
+*****************************
+3. You need to add following command in your .profile/.zprofile file so that you can run conan command in easily way.
+*******************************
+alias conan-i20='conan install . -s build_type=Debug -s compiler.libcxx=libc++ -s cppstd=20 --install-folder=cmake-build-debug --build missing'
+alias conan-i17='conan install . -s build_type=Debug -s compiler.libcxx=libc++ -s cppstd=17 --install-folder=cmake-build-debug --build missing'
+alias conan-i14='conan install . -s build_type=Debug -s compiler.libcxx=libc++ -s cppstd=14 --install-folder=cmake-build-debug --build missing'
+alias conan-i11='conan install . -s build_type=Debug -s compiler.libcxx=libc++ -s cppstd=11 --install-folder=cmake-build-debug --build missing'
+alias conan-ir20='conan install . -s build_type=Release -s compiler.libcxx=libc++ -s cppstd=20 --install-folder=cmake-build-release --build missing'
+alias conan-ir17='conan install . -s build_type=Release -s compiler.libcxx=libc++ -s cppstd=17 --install-folder=cmake-build-release --build missing'
+alias conan-ir14='conan install . -s build_type=Release -s compiler.libcxx=libc++ -s cppstd=14 --install-folder=cmake-build-release --build missing'
+alias conan-ir11='conan install . -s build_type=Release -s compiler.libcxx=libc++ -s cppstd=11 --install-folder=cmake-build-release --build missing'
+******************************
+
+4.After completing all these steps, you need to run following command from terminal under project folder.
+******************************
+a) if your compiler is 14 than run i14 and ir14
+b) if your compiler is 20 than run i20 and ir20
+similarly for other you could run respective commands.
+******************************
+
+
+
+
+
