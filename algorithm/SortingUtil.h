@@ -11,7 +11,8 @@ namespace sortutil {
 
     class SortingUtil {
     public:
-         void static insertionSort(int *arr,int size);
+         void insertionSort(int *arr,int size);
+         int partition(int *arr, int low, int high);
     };
 
 };
@@ -33,6 +34,40 @@ void sortutil::SortingUtil::insertionSort(int *arr, int size) {
             j--;
         }
         arr[j+1] = key;
+    }
+}
+
+
+int sortutil::SortingUtil::partition(int *arr, int low, int high){
+    /* Partition the array by taking the last element as pivot element.
+     * There are different ways to take the pivot element but here I considering the last element as pivot.
+     *
+     * main idea: rest of element from index - low to high-1 we need to partition into two group one group
+     * consist of lesser elements and another group consist of greater element.
+     * for that let the variable which track the middle element of two group always point to the last element of lesser
+     * group.
+     *
+     * whenever we find the greater element just we need to increase the tracking variable by one and swap with greater
+     * element so that after swapping tracking variable positioned to right position - it is at last element of lesser
+     * group.
+     * We need to understand clearly at initially tracking variable should be at low-1 position because we dont have group.
+     * wherever or whenever we get the lesser element during scanning from low to high-1. we first increase the tracking
+     * variable and than swap the element.
+     *
+     * */
+
+    int pivot = arr[size-1];
+    int trackingIndex = low-1;
+
+    for( int i = low; i <= high-1; i++){
+
+        if( arr[i] < pivot){
+            trackingIndex++;
+            swap(arr[i], arr[trackingIndex]);
+        }
+        swap(arr[i], arr[++trackingIndex]);
+        return trackingIndex;
+
     }
 
 }
