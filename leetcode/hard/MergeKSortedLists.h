@@ -1,3 +1,10 @@
+//
+// Created by Lakshmi S Patel on 18/05/21.
+//
+
+#ifndef CPPCOURSE_MERGEKSORTEDLISTS_H
+#define CPPCOURSE_MERGEKSORTEDLISTS_H
+
 #include <iostream>
 #include "algorithm/Util.h"
 #include <vector>
@@ -9,10 +16,7 @@
 #include <unordered_set>
 #include <thread>
 #include <list>
-#include "data-struct/graph/Graph.h"
-#include "data-struct/graph/DetectCycle.h"
 using namespace std;
-
 
 struct ListNode {
     int val;
@@ -102,30 +106,6 @@ public:
     }
 };
 
-int main()
-{
 
-    ListNode *a = new ListNode(4);
-    a->next = new ListNode(6);
 
-    ListNode *c = new ListNode(14);
-    c->next = new ListNode(16);
-
-    ListNode *b = new ListNode(3);
-    b->next = new ListNode(10);
-    vector<ListNode*> v;
-    v.push_back(a);
-    v.push_back(b);
-    v.push_back(c);
-
-    Solution s;
-    ListNode *r = s.mergeKLists(v);
-    ListNode *t = r;
-    while (t){
-        cout<< " "<< t->val;
-        t = t->next;
-    }
-
-    return 0;
-
-}
+#endif //CPPCOURSE_MERGEKSORTEDLISTS_H
