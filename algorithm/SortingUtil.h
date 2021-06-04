@@ -1,6 +1,10 @@
-//
-// Created by Lakshmi S Patel on 29/01/21.
-//
+/*
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Created by Lakshmi S. Patel on 29/01/21.
+   Copyright (c) 2021, Fight For Education Pvt. Ltd. All rights reserved.
+   Please visit us: www.fight4edu.com or www.fight4edu.org
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
 #ifndef CPPCOURSE_SORTINGUTIL_H
 #define CPPCOURSE_SORTINGUTIL_H

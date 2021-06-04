@@ -1,9 +1,13 @@
-//
-// Created by Lakshmi S Patel on 03/02/21.
-//
+/*
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Created by Lakshmi S. Patel on 03/02/21.
+   Copyright (c) 2021, Fight For Education Pvt. Ltd. All rights reserved.
+   Please visit us: www.fight4edu.com or www.fight4edu.org
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
-#ifndef CPPCOURSE_BINARYTREE_H
-#define CPPCOURSE_BINARYTREE_H
+#ifndef CPPCOURSE_BTUTIL_H
+#define CPPCOURSE_BTUTIL_H
 
 #include <iostream>
 #include <stack>
@@ -12,6 +16,7 @@
 using namespace std;
 
 namespace bt {
+
     class Node{
     public:
         Node(int value){ this->value = value; this->left = this->right = NULL; }
@@ -22,11 +27,12 @@ namespace bt {
         int height;
     };
 
-    class BinaryTree{
+    class BTUtil{
     public:
 
         void inorderSuccessor(Node *root, Node *target, Node *&next);
         void inorderPredecessor(Node *root, Node *target, Node *&next);
+
         void inorderTraversal(Node *root);
         void inorderMorrisTraversal(Node *root);
 
@@ -64,7 +70,7 @@ namespace bt {
 
 
 
-void bt::BinaryTree::inorderPredecessor(Node *root, Node *target, Node *&next){
+void bt::BTUtil::inorderPredecessor(Node *root, Node *target, Node *&next){
     if( !root ) return;
 
     inorderSuccessor(root->left, target, next);
@@ -80,7 +86,7 @@ void bt::BinaryTree::inorderPredecessor(Node *root, Node *target, Node *&next){
 }
 
 
-void bt::BinaryTree::inorderSuccessor(Node *root, Node *target, Node *&next){
+void bt::BTUtil::inorderSuccessor(Node *root, Node *target, Node *&next){
     if( !root ) return;
 
     inorderSuccessor(root->right, target, next);
@@ -97,7 +103,7 @@ void bt::BinaryTree::inorderSuccessor(Node *root, Node *target, Node *&next){
 }
 
 // iterative inorderTraversal using stack
-void bt::BinaryTree:: inorderTraversal(Node *root){
+void bt::BTUtil:: inorderTraversal(Node *root){
 
     if( !root ) return;
     stack<Node *> s;
@@ -121,7 +127,7 @@ void bt::BinaryTree:: inorderTraversal(Node *root){
 
 
 // Iterative algorithms for preorder traversal.
-void bt::BinaryTree::preorderTraversal(Node *root){
+void bt::BTUtil::preorderTraversal(Node *root){
 
     if( !root ) return;
 
@@ -144,7 +150,7 @@ void bt::BinaryTree::preorderTraversal(Node *root){
 }
 
 // Iterative algorithms for postorder traversal.
-void bt::BinaryTree::postorderTraversal(Node *root){
+void bt::BTUtil::postorderTraversal(Node *root){
 
     if( root == NULL ) return;
 
@@ -168,7 +174,7 @@ void bt::BinaryTree::postorderTraversal(Node *root){
 }
 
 // iterative inorderTraversal using morris traversal
-void bt::BinaryTree:: inorderMorrisTraversal(Node *root){
+void bt::BTUtil:: inorderMorrisTraversal(Node *root){
 
     if( !root ) return;
     Node *current = root;
@@ -197,7 +203,7 @@ void bt::BinaryTree:: inorderMorrisTraversal(Node *root){
 }
 
 
-void bt::BinaryTree::preorderMorrisTraversal(Node *root) {
+void bt::BTUtil::preorderMorrisTraversal(Node *root) {
 
     if( !root ){ return; }
 
@@ -232,7 +238,7 @@ void bt::BinaryTree::preorderMorrisTraversal(Node *root) {
 }
 
 
-void bt::BinaryTree::postorderTraversalWithOneStack(Node *root){
+void bt::BTUtil::postorderTraversalWithOneStack(Node *root){
 
     if( !root ) return;
 
@@ -295,7 +301,7 @@ bt::Node* bt::AVLTree::leftRotate(Node *y){
     return x;
 }
 
-int bt::BinaryTree::getHeight(Node *root){
+int bt::BTUtil::getHeight(Node *root){
     if( root == NULL) return 0;
     int l = getHeight(root->left);
     int r = getHeight(root->right);
@@ -371,7 +377,7 @@ bt::Node* bt::AVLTree::insertKey(Node *root, int key){
 }
 
 
-int bt::BinaryTree::BTToChildSumBT(Node *root){
+int bt::BTUtil::BTToChildSumBT(Node *root){
 
     if( !root ) return 0;
     if( root->right == NULL && root->left == NULL ) return root->value;
@@ -387,7 +393,7 @@ int bt::BinaryTree::BTToChildSumBT(Node *root){
 
 }
 
-bt::Node * bt::BinaryTree::convertToBT(vector<int> &v){
+bt::Node * bt::BTUtil::convertToBT(vector<int> &v){
 
     cout<< "size of vector: "<< v.size();
     cout<<endl;
@@ -415,7 +421,7 @@ bt::Node * bt::BinaryTree::convertToBT(vector<int> &v){
     return root;
 }
 
-void bt::BinaryTree::printBT(Node *root){
+void bt::BTUtil::printBT(Node *root){
     if( !root ) return;
 
     cout<< " "<< root->value;
@@ -423,7 +429,7 @@ void bt::BinaryTree::printBT(Node *root){
     printBT(root->right);
 }
 
-void bt::BinaryTree::printBottomView(Node *root){
+void bt::BTUtil::printBottomView(Node *root){
 
     if(!root ) return;
 
@@ -455,7 +461,7 @@ void bt::BinaryTree::printBottomView(Node *root){
 }
 
 
-int bt::BinaryTree::diameter(Node *root, int *res){
+int bt::BTUtil::diameter(Node *root, int *res){
 
     if( !root ) return 0;
 
@@ -475,7 +481,7 @@ int bt::BinaryTree::diameter(Node *root, int *res){
 }
 
 
-pair<int,bt::Node*> bt::BinaryTree::diameterOfBTWithNodes(Node *root, int *res, Node **node1, Node **node2){
+pair<int,bt::Node*> bt::BTUtil::diameterOfBTWithNodes(Node *root, int *res, Node **node1, Node **node2){
 
         if( !root ) return make_pair(0,root);
 
@@ -501,4 +507,4 @@ pair<int,bt::Node*> bt::BinaryTree::diameterOfBTWithNodes(Node *root, int *res, 
 }
 
 
-#endif //CPPCOURSE_BINARYTREE_H
+#endif //CPPCOURSE_BTUTIL_H

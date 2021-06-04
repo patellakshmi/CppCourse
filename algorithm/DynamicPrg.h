@@ -1,6 +1,10 @@
-//
-// Created by Lakshmi S Patel on 27/02/21.
-//
+/*
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Created by Lakshmi S. Patel on 27/02/21.
+   Copyright (c) 2021, Fight For Education Pvt. Ltd. All rights reserved.
+   Please visit us: www.fight4edu.com or www.fight4edu.org
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
 #ifndef CPPCOURSE_DYNAMICPRG_H
 #define CPPCOURSE_DYNAMICPRG_H
@@ -9,8 +13,8 @@
 using namespace std;
 
 namespace dp{
-    class DynamicPrg{
 
+    class DynamicPrg{
         public:
                /* None-Core prg*/
                int min(int a, int b);
@@ -160,9 +164,6 @@ namespace dp{
                  bool isPatternMatched(string text, string pattern){
 
                  }
-
-
-
     };
 }
 

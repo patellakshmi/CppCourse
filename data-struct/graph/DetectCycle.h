@@ -13,9 +13,9 @@ using namespace std;
 
 class DetectCycle{
 
-    bool isCycleDetectedUtilDFS(int v, bool *visited, int parent, Graph graph){
+    bool isCycleDetectedUtilDFS(int v, bool *visited, int parent, Graph *graph){
         visited[v] = true;
-        for(auto i: graph.getAdjList(v)){
+        for(auto i: graph->getAdjList(v)){
             if( !visited[i] && isCycleDetectedUtilDFS(i, visited, parent, graph)){
                 return true;
             }else if( i != parent ){
@@ -25,9 +25,9 @@ class DetectCycle{
         return false;
     }
 
-    bool isCycleDetectedUtilBFS(int v, bool *visited, Graph graph){
+    bool isCycleDetectedUtilBFS(int v, bool *visited, Graph *graph){
 
-        vector<int> parent(graph.getTotalVertex(), -1);
+        vector<int> parent(graph->getTotalVertex(), -1);
 
         queue<int> q;
         visited[v] = true;
@@ -36,7 +36,7 @@ class DetectCycle{
         while ( !q.empty()){
             int u = q.front();
             q.pop();
-            for( auto v: graph.getAdjList(u)){
+            for( auto v: graph->getAdjList(u)){
                 if( !visited[v]){
                     visited[v] = true;
                     q.push(v);
@@ -51,14 +51,14 @@ class DetectCycle{
     }
 
 public:
-    bool isCycleDetectedDFS(Graph graph){
+    bool isCycleDetectedDFS(Graph *graph){
 
-        bool *visited = new bool[graph.getTotalVertex()];
-        for(int i = 0; i < graph.getTotalVertex(); i++){
+        bool *visited = new bool[graph->getTotalVertex()];
+        for(int i = 0; i < graph->getTotalVertex(); i++){
             visited[i] = false;
         }
 
-        for(int u = 0; u < graph.getTotalVertex(); u++){
+        for(int u = 0; u < graph->getTotalVertex(); u++){
             if( !visited[u]){
                 if( isCycleDetectedUtilDFS(u, visited, -1, graph)){
                     return true;
@@ -70,15 +70,15 @@ public:
 
     }
 
-    bool isCycleDetectedBFS(Graph graph){
+    bool isCycleDetectedBFS(Graph *graph){
 
-        bool *visited = new bool[graph.getTotalVertex()];
-        for(int i = 0; i < graph.getTotalVertex(); i++){
+        bool *visited = new bool[graph->getTotalVertex()];
+        for(int i = 0; i < graph->getTotalVertex(); i++){
             visited[i] = false;
 
         }
 
-        for(int u = 0; u < graph.getTotalVertex(); u++){
+        for(int u = 0; u < graph->getTotalVertex(); u++){
             if( !visited[u]){
                 if( isCycleDetectedUtilBFS(u, visited, graph )){
                     return true;

@@ -1,6 +1,10 @@
-//
-// Created by Lakshmi S Patel on 08/02/21.
-//
+/*
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Created by Lakshmi S. Patel on 08/02/21.
+   Copyright (c) 2021, Fight For Education Pvt. Ltd. All rights reserved.
+   Please visit us: www.fight4edu.com or www.fight4edu.org
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
 #ifndef CPPCOURSE_ARRAYUTIL_H
 #define CPPCOURSE_ARRAYUTIL_H
@@ -56,8 +60,6 @@ namespace au{
         int min(int a, int b);
         int largestCommonSum(int *arr1,  int *arr2, int size);
         void rotateLeftMatrix(vector<vector<int>> &mat)
-
-
     };
 
     class KStack{

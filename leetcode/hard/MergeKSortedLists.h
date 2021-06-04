@@ -104,6 +104,49 @@ public:
 
         return r;
     }
+
+    ListNode *mergeKListsEfficient(vector<ListNode*>& lists){
+        ListNode *r = nullptr;
+        ListNode *lastR = nullptr;
+        ListNode *minHeadList = nullptr;
+        int nodeValue = INT_MAX;
+
+
+        while(true){
+            int minIndex = -1;
+            nodeValue = INT_MAX;
+            for(int i = 0; i < lists.size(); i++){
+                ListNode *list = lists[i];
+                if( list != nullptr && list->val < nodeValue ){
+                    minIndex = i;
+                    nodeValue = list->val;
+                }
+            }
+
+            if( minIndex != -1){
+                ListNode *list = lists[minIndex];
+                nodeValue = list->val;
+                list = list->next;
+                lists[minIndex] = list;
+
+                if( r == nullptr){
+                    r = new ListNode(nodeValue);
+                    lastR = r;
+                }else{
+
+                    ListNode *node = new ListNode(nodeValue);
+                    lastR->next = node;
+                    lastR = node;
+                }
+
+            }else{
+                break;
+            }
+        }
+
+        return r;
+    }
+
 };
 
 

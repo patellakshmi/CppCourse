@@ -11,6 +11,7 @@ using namespace std;
 
 class Graph{
 
+protected:
     set<int> *adj;
     int V;
 public:
@@ -19,12 +20,7 @@ public:
         adj = new set<int>[V];
     }
 
-    void addEdge(int u, int v){
-        if( u < V && v < V) {
-            adj[u].insert(v);
-            adj[v].insert(u);
-        }
-    }
+    virtual void addEdge(int u, int v) {};
 
     int getTotalVertex(){
         return V;

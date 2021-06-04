@@ -1,0 +1,395 @@
+#	Title	Solution	Acceptance	Difficulty	Frequency
+4	Median of Two Sorted Arrays    		31.7%	Hard
+10	Regular Expression Matching    		27.5%	Hard
+23	Merge k Sorted Lists    		43.4%	Hard
+25	Reverse Nodes in k-Group    		45.8%	Hard
+30	Substring with Concatenation of All Words    		26.5%	Hard
+32	Longest Valid Parentheses    		30.0%	Hard
+37	Sudoku Solver    		47.6%	Hard
+41	First Missing Positive    		34.2%	Hard
+42	Trapping Rain Water    		52.0%	Hard
+44	Wildcard Matching    		25.7%	Hard
+51	N-Queens    		50.7%	Hard
+52	N-Queens II    		61.0%	Hard
+60	Permutation Sequence    		39.8%	Hard
+65	Valid Number    		16.6%	Hard
+68 Text Justification    		30.7%	Hard
+72 Edit Distance    		47.5%	Hard
+76 Minimum Window Substring    		36.4%	Hard
+84 Largest Rectangle in Histogram    		37.7%	Hard
+85 Maximal Rectangle    		40.0%	Hard
+87 Scramble String    		34.8%	Hard
+99 Recover Binary Search Tree    		43.0%	Hard
+115 Distinct Subsequences    		40.2%	Hard
+123 Best Time to Buy and Sell Stock III    		40.4%	Hard
+124 Binary Tree Maximum Path Sum    		35.8%	Hard
+126 Word Ladder II    		24.0%	Hard
+127 Word Ladder    		32.4%	Hard
+128 Longest Consecutive Sequence    		46.7%	Hard
+132 Palindrome Partitioning II    		31.5%	Hard
+135 Candy    		33.6%	Hard
+140 Word Break II    		36.0%	Hard
+149 Max Points on a Line    		18.0%	Hard
+154 Find Minimum in Rotated Sorted Array II    		42.2%	Hard
+158 Read N Characters Given Read4 II - Call multiple times    		37.8%	Hard
+164 Maximum Gap    		37.4%	Hard
+174 Dungeon Game    		33.6%	Hard
+185 Department Top Three Salaries    		40.5%	Hard
+188 Best Time to Buy and Sell Stock IV    		30.3%	Hard
+212 Word Search II    		37.7%	Hard
+214 Shortest Palindrome    		30.9%	Hard
+218 The Skyline Problem    		36.9%	Hard
+224 Basic Calculator    		38.4%	Hard
+233 Number of Digit One    		31.9%	Hard
+239 Sliding Window Maximum    		44.9%	Hard
+248 Strobogrammatic Number III    		40.5%	Hard
+262 Trips and Users    		35.9%	Hard
+265 Paint House II    		46.2%	Hard
+269 Alien Dictionary    		33.9%	Hard
+272 Closest Binary Search Tree Value II    		53.1%	Hard
+273 Integer to English Words    		28.5%	Hard
+282 Expression Add Operators    		37.1%	Hard
+295 Find Median from Data Stream    		47.8%	Hard
+296 Best Meeting Point    		58.3%	Hard
+297 Serialize and Deserialize Binary Tree    		50.6%	Hard
+301 Remove Invalid Parentheses    		45.1%	Hard
+302 Smallest Rectangle Enclosing Black Pixels    		52.8%	Hard
+305 Number of Islands II    		39.5%	Hard
+308 Range Sum Query 2D - Mutable    		38.6%	Hard
+312 Burst Balloons    		54.0%	Hard
+315 Count of Smaller Numbers After Self    		42.3%	Hard
+317 Shortest Distance from All Buildings    		43.2%	Hard
+321 Create Maximum Number    		27.7%	Hard
+327 Count of Range Sum    		36.3%	Hard
+329 Longest Increasing Path in a Matrix    		46.6%	Hard
+330 Patching Array    		35.2%	Hard
+335 Self Crossing    		28.8%	Hard
+336 Palindrome Pairs    		35.1%	Hard
+352 Data Stream as Disjoint Intervals    		48.9%	Hard
+354 Russian Doll Envelopes    		38.0%	Hard
+358 Rearrange String k Distance Apart    		35.9%	Hard
+363 Max Sum of Rectangle No Larger Than K    		38.7%	Hard
+381 Insert Delete GetRandom O(1) - Duplicates allowed    		35.1%	Hard
+391 Perfect Rectangle    		31.3%	Hard
+403 Frog Jump    		41.8%	Hard
+407 Trapping Rain Water II    		44.7%	Hard
+410 Split Array Largest Sum    		46.9%	Hard
+411 Minimum Unique Word Abbreviation    		37.5%	Hard
+420 Strong Password Checker    		13.8%	Hard
+425 Word Squares    		50.5%	Hard
+428 Serialize and Deserialize N-ary Tree    		62.1%	Hard
+431 Encode N-ary Tree to Binary Tree    		75.1%	Hard
+432 All O`one Data Structure    		33.4%	Hard
+440 K-th Smallest in Lexicographical Order    		29.9%	Hard
+446 Arithmetic Slices II - Subsequence    		33.8%	Hard
+458 Poor Pigs    		54.7%	Hard
+460 LFU Cache    		36.8%	Hard
+465 Optimal Account Balancing    		48.6%	Hard
+466 Count The Repetitions    		28.7%	Hard
+471 Encode String with Shortest Length    		49.9%	Hard
+472 Concatenated Words    		43.6%	Hard
+479 Largest Palindrome Product    		29.8%	Hard
+480 Sliding Window Median    		39.3%	Hard
+483 Smallest Good Base    		36.5%	Hard
+488 Zuma Game    		38.2%	Hard
+489 Robot Room Cleaner    		73.3%	Hard
+493 Reverse Pairs    		27.4%	Hard
+499 The Maze III    		42.7%	Hard
+502 IPO    		42.0%	Hard
+514 Freedom Trail    		45.1%	Hard
+517 Super Washing Machines    		38.7%	Hard
+527 Word Abbreviation    		56.6%	Hard
+546 Remove Boxes    		44.0%	Hard
+552 Student Attendance Record II    		37.9%	Hard
+564 Find the Closest Palindrome    		20.4%	Hard
+568 Maximum Vacation Days    		41.8%	Hard
+569 Median Employee Salary    		62.7%	Hard
+571 Find Median Given Frequency of Numbers    		45.7%	Hard
+579 Find Cumulative Salary of an Employee    		38.7%	Hard
+587 Erect the Fence    		36.6%	Hard
+588 Design In-Memory File System    		46.7%	Hard
+591 Tag Validator    		35.2%	Hard
+600 Non-negative Integers without Consecutive Ones    		34.4%	Hard
+601 Human Traffic of Stadium    		46.3%	Hard
+615 Average Salary: Departments VS Company    		53.5%	Hard
+618 Students Report By Geography    		61.0%	Hard
+629 K Inverse Pairs Array    		31.8%	Hard
+630 Course Schedule III    		35.1%	Hard
+631 Design Excel Sum Formula    		32.5%	Hard
+632 Smallest Range Covering Elements from K Lists    		54.9%	Hard
+639 Decode Ways II    		27.7%	Hard
+642 Design Search Autocomplete System    		46.8%	Hard
+644 Maximum Average Subarray II    		34.3%	Hard
+656 Coin Path    		29.9%	Hard
+660 Remove 9    		54.5%	Hard
+664 Strange Printer    		41.7%	Hard
+668 Kth Smallest Number in Multiplication Table    		48.0%	Hard
+675 Cut Off Trees for Golf Event    		35.6%	Hard
+679 24 Game    		47.4%	Hard
+683 K Empty Slots    		36.2%	Hard
+685 Redundant Connection II    		33.2%	Hard
+689 Maximum Sum of 3 Non-Overlapping Subarrays    		47.5%	Hard
+691 Stickers to Spell Word    		45.5%	Hard
+699 Falling Squares    		43.4%	Hard
+710 Random Pick with Blacklist    		33.1%	Hard
+711 Number of Distinct Islands II    		49.9%	Hard
+715 Range Module    		41.2%	Hard
+719 Find K-th Smallest Pair Distance    		32.7%	Hard
+726 Number of Atoms    		51.0%	Hard
+727 Minimum Window Subsequence    		42.6%	Hard
+730 Count Different Palindromic Subsequences    		43.6%	Hard
+732 My Calendar III    		62.9%	Hard
+736 Parse Lisp Expression    		49.8%	Hard
+741 Cherry Pickup    		35.3%	Hard
+745 Prefix and Suffix Search    		36.2%	Hard
+749 Contain Virus    		48.6%	Hard
+753 Cracking the Safe    		52.7%	Hard
+757 Set Intersection Size At Least Two    		42.7%	Hard
+759 Employee Free Time    		68.7%	Hard
+761 Special Binary String    		59.0%	Hard
+765 Couples Holding Hands    		55.7%	Hard
+768 Max Chunks To Make Sorted II    		50.0%	Hard
+770 Basic Calculator IV    		54.2%	Hard
+772 Basic Calculator III    		44.5%	Hard
+773 Sliding Puzzle    		61.4%	Hard
+774 Minimize Max Distance to Gas Station    		48.8%	Hard
+778 Swim in Rising Water    		55.1%	Hard
+780 Reaching Points    		30.5%	Hard
+782 Transform to Chessboard    		47.1%	Hard
+786 K-th Smallest Prime Fraction    		44.1%	Hard
+793 Preimage Size of Factorial Zeroes Function    		40.6%	Hard
+798 Smallest Rotation with Highest Score    		45.2%	Hard
+803 Bricks Falling When Hit    		32.0%	Hard
+805 Split Array With Same Average    		26.9%	Hard
+810 Chalkboard XOR Game    		50.5%	Hard
+815 Bus Routes    		43.7%	Hard
+818 Race Car    		40.6%	Hard
+827 Making A Large Island    		47.1%	Hard
+828 Count Unique Characters of All Substrings of a Given String    		46.9%	Hard
+829 Consecutive Numbers Sum    		39.3%	Hard
+834 Sum of Distances in Tree    		46.9%	Hard
+839 Similar String Groups    		42.1%	Hard
+843 Guess the Word    		46.2%	Hard
+847 Shortest Path Visiting All Nodes    		54.5%	Hard
+850 Rectangle Area II    		48.5%	Hard
+854 K-Similar Strings    		38.7%	Hard
+857 Minimum Cost to Hire K Workers    		50.7%	Hard
+862 Shortest Subarray with Sum at Least K    		25.3%	Hard
+864 Shortest Path to Get All Keys    		42.5%	Hard
+871 Minimum Number of Refueling Stops    		32.6%	Hard
+878 Nth Magical Number    		28.9%	Hard
+879 Profitable Schemes    		40.0%	Hard
+882 Reachable Nodes In Subdivided Graph    		43.1%	Hard
+887 Super Egg Drop    		27.0%	Hard
+891 Sum of Subsequence Widths    		33.2%	Hard
+895 Maximum Frequency Stack    		63.4%	Hard
+899 Orderly Queue    		53.6%	Hard
+902 Numbers At Most N Given Digit Set    		36.1%	Hard
+903 Valid Permutations for DI Sequence    		54.5%	Hard
+906 Super Palindromes    		39.2%	Hard
+913 Cat and Mouse    		35.0%	Hard
+920 Number of Music Playlists    		48.3%	Hard
+924 Minimize Malware Spread    		41.8%	Hard
+927 Three Equal Parts    		34.7%	Hard
+928 Minimize Malware Spread II    		41.4%	Hard
+936 Stamping The Sequence    		53.3%	Hard
+940 Distinct Subsequences II    		41.5%	Hard
+943 Find the Shortest Superstring    		43.5%	Hard
+952 Largest Component Size by Common Factor    		36.4%	Hard
+956 Tallest Billboard    		39.8%	Hard
+960 Delete Columns to Make Sorted III    		55.3%	Hard
+964 Least Operators to Express Number    		45.4%	Hard
+968 Binary Tree Cameras    		40.5%	Hard
+972 Equal Rational Numbers    		42.0%	Hard
+975 Odd Even Jump    		41.4%	Hard
+980 Unique Paths III    		77.1%	Hard
+982 Triples with Bitwise AND Equal To Zero    		56.6%	Hard
+987 Vertical Order Traversal of a Binary Tree    		39.2%	Hard
+992 Subarrays with K Different Integers    		51.1%	Hard
+995 Minimum Number of K Consecutive Bit Flips    		50.1%	Hard
+996 Number of Squareful Arrays    		48.5%	Hard
+1000 Minimum Cost to Merge Stones    		40.7%	Hard
+1001 Grid Illumination    		36.0%	Hard
+1012 Numbers With Repeated Digits    		38.0%	Hard
+1028 Recover a Tree From Preorder Traversal    		71.2%	Hard
+1032 Stream of Characters    		48.7%	Hard
+1036 Escape a Large Maze    		34.3%	Hard
+1044 Longest Duplicate Substring    		31.2%	Hard
+1063 Number of Valid Subarrays    		72.2%	Hard
+1067 Digit Count in Range    		41.8%	Hard
+1074 Number of Submatrices That Sum to Target    		65.0%	Hard
+1088 Confusing Number II    		45.8%	Hard
+1092 Shortest Common Supersequence     		53.5%	Hard
+1095 Find in Mountain Array    		36.1%	Hard
+1096 Brace Expansion II    		62.9%	Hard
+1097 Game Play Analysis V    		57.0%	Hard
+1106 Parsing A Boolean Expression    		59.5%	Hard
+1121 Divide Array Into Increasing Sequences    		58.6%	Hard
+1125 Smallest Sufficient Team    		47.2%	Hard
+1127 User Purchase Platform    		50.7%	Hard
+1147 Longest Chunked Palindrome Decomposition    		59.7%	Hard
+1153 String Transforms Into Another String    		35.7%	Hard
+1157 Online Majority Element In Subarray    		40.8%	Hard
+1159 Market Analysis II    		56.6%	Hard
+1163 Last Substring in Lexicographical Order    		36.2%	Hard
+1168 Optimize Water Distribution in a Village    		61.3%	Hard
+1172 Dinner Plate Stacks    		37.4%	Hard
+1178 Number of Valid Words for Each Puzzle    		40.0%	Hard
+1183 Maximum Number of Ones    		57.9%	Hard
+1187 Make Array Strictly Increasing    		42.5%	Hard
+1192 Critical Connections in a Network    		51.5%	Hard
+1194 Tournament Winners    		52.6%	Hard
+1199 Minimum Time to Build Blocks    		38.9%	Hard
+1203 Sort Items by Groups Respecting Dependencies    		48.4%	Hard
+1206 Design Skiplist    		59.0%	Hard
+1210 Minimum Moves to Reach Target with Rotations    		46.7%	Hard
+1216 Valid Palindrome III    		50.3%	Hard
+1220 Count Vowels Permutation    		54.1%	Hard
+1223 Dice Roll Simulation    		46.8%	Hard
+1224 Maximum Equal Frequency    		35.7%	Hard
+1225 Report Contiguous Dates    		63.2%	Hard
+1231 Divide Chocolate    		53.7%	Hard
+1235 Maximum Profit in Job Scheduling    		48.0%	Hard
+1240 Tiling a Rectangle with the Fewest Squares    		52.9%	Hard
+1246 Palindrome Removal    		45.8%	Hard
+1250 Check If It Is a Good Array    		56.6%	Hard
+1255 Maximum Score Words Formed by Letters    		70.3%	Hard
+1259 Handshakes That Don't Cross    		54.3%	Hard
+1263 Minimum Moves to Move a Box to Their Target Location    		43.7%	Hard
+1269 Number of Ways to Stay in the Same Place After Some Steps    		43.3%	Hard
+1274 Number of Ships in a Rectangle    		66.0%	Hard
+1278 Palindrome Partitioning III    		61.2%	Hard
+1284 Minimum Number of Flips to Convert Binary Matrix to Zero Matrix    		70.1%	Hard
+1289 Minimum Falling Path Sum II    		62.7%	Hard
+1293 Shortest Path in a Grid with Obstacles Elimination    		43.0%	Hard
+1298 Maximum Candies You Can Get from Boxes    		60.1%	Hard
+1301 Number of Paths with Max Score    		38.3%	Hard
+1307 Verbal Arithmetic Puzzle    		36.2%	Hard
+1312 Minimum Insertion Steps to Make a String Palindrome    		60.4%	Hard
+1316 Distinct Echo Substrings    		49.6%	Hard
+1320 Minimum Distance to Type a Word Using Two Fingers    		61.7%	Hard
+1326 Minimum Number of Taps to Open to Water a Garden    		47.5%	Hard
+1330 Reverse Subarray To Maximize Array Value    		37.0%	Hard
+1335 Minimum Difficulty of a Job Schedule    		56.5%	Hard
+1336 Number of Transactions per Visit    		49.9%	Hard
+1340 Jump Game V    		59.8%	Hard
+1345 Jump Game IV    		42.1%	Hard
+1349 Maximum Students Taking Exam    		44.6%	Hard
+1354 Construct Target Array With Multiple Sums    		31.6%	Hard
+1359 Count All Valid Pickup and Delivery Options    		55.8%	Hard
+1363 Largest Multiple of Three    		34.3%	Hard
+1368 Minimum Cost to Make at Least One Valid Path in a Grid    		58.1%	Hard
+1369 Get the Second Most Recent Activity    		68.9%	Hard
+1373 Maximum Sum BST in Binary Tree    		37.1%	Hard
+1377 Frog Position After T Seconds    		35.6%	Hard
+1383 Maximum Performance of a Team    		36.3%	Hard
+1384 Total Sales Amount by Year    		65.2%	Hard
+1388 Pizza With 3n Slices    		46.5%	Hard
+1392 Longest Happy Prefix    		42.4%	Hard
+1397 Find All Good Strings    		38.8%	Hard
+1402 Reducing Dishes    		72.2%	Hard
+1406 Stone Game III    		58.4%	Hard
+1411 Number of Ways to Paint N × 3 Grid    		60.5%	Hard
+1412 Find the Quiet Students in All Exams    		63.7%	Hard
+1416 Restore The Array    		36.6%	Hard
+1420 Build Array Where You Can Find The Maximum Exactly K Comparisons    		64.3%	Hard
+1425 Constrained Subsequence Sum    		45.0%	Hard
+1434 Number of Ways to Wear Different Hats to Each Other    		39.7%	Hard
+1439 Find the Kth Smallest Sum of a Matrix With Sorted Rows    		60.6%	Hard
+1444 Number of Ways of Cutting a Pizza    		54.2%	Hard
+1449 Form Largest Integer With Digits That Add up to Target    		44.6%	Hard
+1453 Maximum Number of Darts Inside of a Circular Dartboard    		35.8%	Hard
+1458 Max Dot Product of Two Subsequences    		43.6%	Hard
+1463 Cherry Pickup II    		68.7%	Hard
+1467 Probability of a Two Boxes Having The Same Number of Distinct Balls    		60.6%	Hard
+1473 Paint House III    		48.8%	Hard
+1478 Allocate Mailboxes    		54.0%	Hard
+1479 Sales by Day of the Week    		83.0%	Hard
+1483 Kth Ancestor of a Tree Node    		32.3%	Hard
+1489 Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree    		51.7%	Hard
+1494 Parallel Courses II    		30.8%	Hard
+1499 Max Value of Equation    		45.4%	Hard
+1505 Minimum Possible Integer After at Most K Adjacent Swaps On Digits    		36.4%	Hard
+1510 Stone Game IV    		59.0%	Hard
+1515 Best Position for a Service Centre    		39.0%	Hard
+1516 Move Sub-Tree of N-Ary Tree    		64.5%	Hard
+1520 Maximum Number of Non-Overlapping Substrings    		36.8%	Hard
+1521 Find a Value of a Mysterious Function Closest to Target    		44.3%	Hard
+1526 Minimum Number of Increments on Subarrays to Form a Target Array    		62.8%	Hard
+1531 String Compression II    		34.3%	Hard
+1537 Get the Maximum Score    		36.8%	Hard
+1542 Find Longest Awesome Substring    		36.9%	Hard
+1547 Minimum Cost to Cut a Stick    		52.8%	Hard
+1548 The Most Similar Path in a Graph    		55.3%	Hard
+1553 Minimum Number of Days to Eat N Oranges    		30.3%	Hard
+1559 Detect Cycles in 2D Grid    		44.8%	Hard
+1563 Stone Game V    		39.9%	Hard
+1568 Minimum Number of Days to Disconnect Island    		50.1%	Hard
+1569 Number of Ways to Reorder Array to Get Same BST    		50.1%	Hard
+1575 Count All Possible Routes    		57.3%	Hard
+1579 Remove Max Number of Edges to Keep Graph Fully Traversable    		46.5%	Hard
+1585 Check If String Is Transformable With Substring Sort Operations    		48.6%	Hard
+1591 Strange Printer II    		55.8%	Hard
+1595 Minimum Cost to Connect Two Groups of Points    		43.7%	Hard
+1597 Build Binary Expression Tree From Infix Expression    		59.1%	Hard
+1601 Maximum Number of Achievable Transfer Requests    		48.1%	Hard
+1606 Find Servers That Handled Most Number of Requests    		37.7%	Hard
+1610 Maximum Number of Visible Points    		31.8%	Hard
+1611 Minimum One Bit Operations to Make Integers Zero    		58.2%	Hard
+1617 Count Subtrees With Max Distance Between Cities    		63.5%	Hard
+1622 Fancy Sequence    		14.7%	Hard
+1627 Graph Connectivity With Threshold    		40.6%	Hard
+1632 Rank Transform of a Matrix    		32.2%	Hard
+1635 Hopper Company Queries I    		56.4%	Hard
+1639 Number of Ways to Form a Target String Given a Dictionary    		40.4%	Hard
+1643 Kth Smallest Instructions    		45.1%	Hard
+1645 Hopper Company Queries II    		38.6%	Hard
+1649 Create Sorted Array through Instructions    		36.8%	Hard
+1651 Hopper Company Queries III    		66.2%	Hard
+1655 Distribute Repeating Integers    		39.9%	Hard
+1659 Maximize Grid Happiness    		35.8%	Hard
+1665 Minimum Initial Energy to Finish Tasks    		64.2%	Hard
+1671 Minimum Number of Removals to Make Mountain Array    		44.9%	Hard
+1675 Minimize Deviation in Array    		48.1%	Hard
+1681 Minimum Incompatibility    		35.9%	Hard
+1687 Delivering Boxes from Storage to Ports    		35.8%	Hard
+1691 Maximum Height by Stacking Cuboids     		50.6%	Hard
+1692 Count Ways to Distribute Candies    		60.5%	Hard
+1697 Checking Existence of Edge Length Limited Paths    		54.4%	Hard
+1703 Minimum Adjacent Swaps for K Consecutive Ones    		40.0%	Hard
+1707 Maximum XOR With an Element From Array    		46.5%	Hard
+1713 Minimum Operations to Make a Subsequence    		45.7%	Hard
+1714 Sum Of Special Evenly-Spaced Elements In Array    		48.5%	Hard
+1719 Number Of Ways To Reconstruct A Tree    		39.3%	Hard
+1723 Find Minimum Time to Finish All Jobs    		43.8%	Hard
+1724 Checking Existence of Edge Length Limited Paths II    		57.3%	Hard
+1728 Cat and Mouse II    		41.0%	Hard
+1735 Count Ways to Make Array With Product    		48.2%	Hard
+1739 Building Boxes    		49.4%	Hard
+1745 Palindrome Partitioning IV    		49.7%	Hard
+1751 Maximum Number of Events That Can Be Attended II    		48.5%	Hard
+1755 Closest Subsequence Sum    		35.8%	Hard
+1761 Minimum Degree of a Connected Trio in a Graph    		37.9%	Hard
+1766 Tree of Coprimes    		36.5%	Hard
+1767 Find the Subtasks That Did Not Execute    		85.0%	Hard
+1771 Maximize Palindrome Length From Subsequences    		34.2%	Hard
+1776 Car Fleet II    		48.3%	Hard
+1782 Count Pairs Of Nodes    		33.5%	Hard
+1787 Make the XOR of All Segments Equal to Zero    		37.0%	Hard
+1788 Maximize the Beauty of the Garden    		68.7%	Hard
+1793 Maximum Score of a Good Subarray    		47.2%	Hard
+1799 Maximize Score After N Operations    		49.1%	Hard
+1803 Count Pairs With XOR in a Range    		44.1%	Hard
+1808 Maximize Number of Nice Divisors    		27.9%	Hard
+1815 Maximum Number of Groups Getting Fresh Donuts    		39.3%	Hard
+1819 Number of Different Subsequences GCDs    		33.7%	Hard
+1825 Finding MK Average    		31.3%	Hard
+1830 Minimum Number of Operations to Make String Sorted    		46.9%	Hard
+1835 Find XOR Sum of All Pairs Bitwise AND    		55.7%	Hard
+1840 Maximum Building Height    		37.1%	Hard
+1842 Next Palindrome Using Same Digits    		64.9%	Hard
+1847 Closest Room    		35.8%	Hard
+1851 Minimum Interval to Include Each Query    		41.4%	Hard
+1857 Largest Color Value in a Directed Graph    		38.0%	Hard
+1862 Sum of Floored Pairs    		23.7%	Hard
+1866 Number of Ways to Rearrange Sticks With K Sticks Visible

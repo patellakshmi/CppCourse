@@ -2,3 +2,7 @@ Index
 1.Wildcard Pattern Matching . * : RegularExpMatch.h
 1.Merge K sorted list : MergeKSortedLists.h
 3. Substring with Concatenation of All Words
+4. Longest valid parenthesis
+5. Water trap
+6. Min Window Substring
+7. Max Area in histogram

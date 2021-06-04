@@ -1,13 +1,17 @@
-//
-// Created by Lakshmi S Patel on 18/02/21.
-//
+/*
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Created by Lakshmi S. Patel on 18/02/21.
+   Copyright (c) 2021, Fight For Education Pvt. Ltd. All rights reserved.
+   Please visit us: www.fight4edu.com or www.fight4edu.org
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
-#ifndef CPPCOURSE_DYNAMICUTIL_H
-#define CPPCOURSE_DYNAMICUTIL_H
+#ifndef CPPCOURSE_DPUTIL_H
+#define CPPCOURSE_DPUTIL_H
 
 namespace du{
 
-    class DynamicUtil{
+    class DPUtil{
     public:
         int operator +();
         bool isSubsetSum(int *arr, int size, int sum);
@@ -18,12 +22,10 @@ namespace du{
         int maxSumIncrSubSeq(int *arr, int size);
         int max(int a, int b);
         int maxProdIncrSubSeq(int *arr, int size);
-
-
     };
 }
 
-bool du::DynamicUtil::isSubsetSum(int *arr, int size, int sum){
+bool du::DPUtil::isSubsetSum(int *arr, int size, int sum){
 
     //Allocating 2-D array that is DP.
     bool** dp = new bool*[size+1];
@@ -63,7 +65,7 @@ bool du::DynamicUtil::isSubsetSum(int *arr, int size, int sum){
  * */
 
 /*
-int du::DynamicUtil::maxSurvival(int A, int B, area X, area Y, area Z,
+int du::DPUtil::maxSurvival(int A, int B, area X, area Y, area Z,
                 int last, map<pair<int, int>, int>& memo)
 {
     //  if any of A or B is less than 0, return 0
@@ -107,7 +109,7 @@ int du::DynamicUtil::maxSurvival(int A, int B, area X, area Y, area Z,
 }
 
 //  method returns maximum survival time
-int du::DynamicUtil::getMaxSurvivalTime(int A, int B, area X, area Y, area Z)
+int du::DPUtil::getMaxSurvivalTime(int A, int B, area X, area Y, area Z)
 {
     if (A <= 0 || B <= 0)
         return 0;
@@ -135,7 +137,7 @@ price    | 1   5   8   9  10  17  17  20
 
  */
 
-int du::DynamicUtil::maxProfitByCuttingRod(int *prof, int size){
+int du::DPUtil::maxProfitByCuttingRod(int *prof, int size){
 
     int *dp = new int[size+1];
     dp[0] = 0;
@@ -181,12 +183,12 @@ int paintingFence(int fences, int colors){
 }
 
 
-int du::DynamicUtil::max(int a, int b){
+int du::DPUtil::max(int a, int b){
     if( a > b ) return a;
     return b;
 }
 
-int du::DynamicUtil::maxIncrSubSeq(int *arr, int size){
+int du::DPUtil::maxIncrSubSeq(int *arr, int size){
 
     int dp[size];
     for(int i = 0; i < size; i++){  dp[i] = 1; }
@@ -201,7 +203,7 @@ int du::DynamicUtil::maxIncrSubSeq(int *arr, int size){
     return dp[size-1];
 }
 
-int du::DynamicUtil::maxSumIncrSubSeq(int *arr, int size){
+int du::DPUtil::maxSumIncrSubSeq(int *arr, int size){
 
     int dp[size];
     for(int i = 0; i < size; i++){  dp[i] = arr[i]; }
@@ -223,7 +225,7 @@ int du::DynamicUtil::maxSumIncrSubSeq(int *arr, int size){
 }
 
 
-int du::DynamicUtil::maxProdIncrSubSeq(int *arr, int size){
+int du::DPUtil::maxProdIncrSubSeq(int *arr, int size){
 
     int dp[size];
     for(int i = 0; i < size; i++){  dp[i] = arr[i]; }
@@ -243,9 +245,9 @@ int du::DynamicUtil::maxProdIncrSubSeq(int *arr, int size){
     return maxValue;
 }
 
-int du::DynamicUtil::operator+() {
+int du::DPUtil::operator+() {
     return 0;
 }
 
 
-#endif //CPPCOURSE_DYNAMICUTIL_H
+#endif //CPPCOURSE_DPUTIL_H

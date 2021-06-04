@@ -1,9 +1,14 @@
-//
-// Created by Lakshmi S Patel on 04/02/21.
-//
+/*
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Created by Lakshmi S. Patel on 04/02/21.
+   Copyright (c) 2021, Fight For Education Pvt. Ltd. All rights reserved.
+   Please visit us: www.fight4edu.com or www.fight4edu.org
+   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
-#ifndef CPPCOURSE_LINKEDLIST_H
-#define CPPCOURSE_LINKEDLIST_H
+
+#ifndef CPPCOURSE_LLUTIL_H
+#define CPPCOURSE_LLUTIL_H
 #include <iostream>
 
 using namespace std;
@@ -19,7 +24,7 @@ namespace ll {
         Node():Node(0){};
     };
 
-    class LinkedList{
+    class LLUtil{
 
     public:
         Node *makeLinkedList(vector<int> &v);
@@ -63,7 +68,8 @@ namespace ll {
  * now head_ref is pointer to pointer so if you want to modified the head pointer via head_ref for that we need *head_ref
  * we want to access the value of head that is first node of linked list we can get it by *head_ref;
  * */
-ll::Node * ll::LinkedList::DLLToBT(Node **head, int n ){
+
+ll::Node * ll::LLUtil::DLLToBT(Node **head, int n ){
 
     if( n<= 0 ) return NULL;
 
@@ -79,7 +85,7 @@ ll::Node * ll::LinkedList::DLLToBT(Node **head, int n ){
     return root;
 }
 
-ll::Node * ll::LinkedList::makeLinkedList(vector<int> &v){
+ll::Node * ll::LLUtil::makeLinkedList(vector<int> &v){
 
     if( v.size() == 0) return NULL;
     Node *head = new Node(v[0]);
@@ -94,14 +100,14 @@ ll::Node * ll::LinkedList::makeLinkedList(vector<int> &v){
 
 }
 
-void ll::LinkedList::printLinkedList(ll::Node *head){
+void ll::LLUtil::printLinkedList(ll::Node *head){
     while (head){
         cout<< " "<< head->value;
         head = head->next;
     }
 }
 
-bool ll::LinkedList::isLoop(Node *head ){
+bool ll::LLUtil::isLoop(Node *head ){
 
     Node *slowPtr = head;
     Node *fastPtr = head;
@@ -116,7 +122,7 @@ bool ll::LinkedList::isLoop(Node *head ){
 
 }
 
-int ll::LinkedList::findLoopLength(Node *head ){
+int ll::LLUtil::findLoopLength(Node *head ){
 
     Node *slowPtr = head;
     Node *fastPtr = head;
@@ -143,7 +149,7 @@ int ll::LinkedList::findLoopLength(Node *head ){
 
 
 
-void ll::LinkedList::swap(Node **head_ref, Node *node1, Node *node2 ){
+void ll::LLUtil::swap(Node **head_ref, Node *node1, Node *node2 ){
 
     if( *head_ref == NULL ) return;
     if( node1 == node2 ) return;
@@ -187,7 +193,7 @@ void ll::LinkedList::swap(Node **head_ref, Node *node1, Node *node2 ){
 }
 
 
-ll::Node* ll::LinkedList::reverse(Node *head){
+ll::Node* ll::LLUtil::reverse(Node *head){
 
     Node *prev = NULL;
     Node *curr = head;
@@ -206,7 +212,7 @@ ll::Node* ll::LinkedList::reverse(Node *head){
 }
 
 
-ll::Node* ll::LinkedList::reverseInGroup(Node *head, int k){
+ll::Node* ll::LLUtil::reverseInGroup(Node *head, int k){
 
     int count = 1;
     Node *curr = head;
@@ -227,7 +233,7 @@ ll::Node* ll::LinkedList::reverseInGroup(Node *head, int k){
 
 }
 
-ll::Node* ll::LinkedList::pairWiseSwap(Node *head){
+ll::Node* ll::LLUtil::pairWiseSwap(Node *head){
 
     if( !head ) return NULL;
 
@@ -252,13 +258,13 @@ ll::Node* ll::LinkedList::pairWiseSwap(Node *head){
 
 }
 
-void  ll::LinkedList::insertAtStart(Node **head_ref, Node *node){
+void  ll::LLUtil::insertAtStart(Node **head_ref, Node *node){
     if( *head_ref == NULL){ *head_ref = node; return; }
     node->next = *head_ref;
     *head_ref = node;
 }
 
-void  ll::LinkedList::insertAtEnd(Node **head_ref, Node *node){
+void  ll::LLUtil::insertAtEnd(Node **head_ref, Node *node){
     if( *head_ref == NULL){ *head_ref = node; return; }
 
     Node *end = *head_ref;
@@ -268,7 +274,7 @@ void  ll::LinkedList::insertAtEnd(Node **head_ref, Node *node){
     end->next = node;
 }
 
-ll::Node* ll::LinkedList::getFirstAndRemove(Node **head_ref){
+ll::Node* ll::LLUtil::getFirstAndRemove(Node **head_ref){
     if( *head_ref == NULL){ return  NULL; }
     Node *node = *head_ref;
     *head_ref = node->next;
@@ -276,13 +282,13 @@ ll::Node* ll::LinkedList::getFirstAndRemove(Node **head_ref){
     return node;
 }
 
-/* Partition is algorithm, that partition LinkedList by pivot element.
+/* Partition is algorithm, that partition LLUtil by pivot element.
  * First we need to get the pivot element that is here last element.
  * Create the two list that are lessList, greatList, one contains only lesser element than pivot
  * another contains the greater element than pivot.
  * Now we need to join the these two list with pivot as lessList than pivot than greatList.
  *  */
-ll::Node* ll::LinkedList::partition(Node **head_ref) {
+ll::Node* ll::LLUtil::partition(Node **head_ref) {
 
     Node *pivot = *head_ref;
     Node *prevPivot = NULL;
@@ -326,7 +332,7 @@ ll::Node* ll::LinkedList::partition(Node **head_ref) {
 /* QuickSort : We need to get pivot element, with help of pivot element we break original list greatList and lessList
  * we need to recur the quickSort for lessList, greatList after that combine the list.
  * */
-void ll::LinkedList::quickSort(Node **head_ref){
+void ll::LLUtil::quickSort(Node **head_ref){
 
     //Base case
     if( *head_ref == NULL || (*head_ref)->next == NULL) return;
@@ -356,7 +362,7 @@ void ll::LinkedList::quickSort(Node **head_ref){
 
 }
 
-ll::Node* ll::LinkedList::reverseAlt(Node *head, int k ){
+ll::Node* ll::LLUtil::reverseAlt(Node *head, int k ){
 
     if( (head) == NULL ) return NULL;
 
@@ -395,7 +401,7 @@ ll::Node* ll::LinkedList::reverseAlt(Node *head, int k ){
 }
 
 
-ll::Node * ll::LinkedList::merge(Node *a, Node *b){
+ll::Node * ll::LLUtil::merge(Node *a, Node *b){
 
     if( a == NULL ) return b;
     if( b == NULL ) return a;
@@ -421,7 +427,7 @@ ll::Node * ll::LinkedList::merge(Node *a, Node *b){
 }
 
 
-void ll::LinkedList::duplicateEachNode(Node *head){
+void ll::LLUtil::duplicateEachNode(Node *head){
 
     if( !head ) return;
     Node *curr = head;
@@ -438,7 +444,7 @@ void ll::LinkedList::duplicateEachNode(Node *head){
 
 }
 
-void ll::LinkedList::ajustRandomPointer(Node *head){
+void ll::LLUtil::ajustRandomPointer(Node *head){
     if( !head ) return;
 
     Node *curr = head;
@@ -458,7 +464,7 @@ void ll::LinkedList::ajustRandomPointer(Node *head){
 }
 
 
-void ll::LinkedList::seperate(Node *head, Node **b){
+void ll::LLUtil::seperate(Node *head, Node **b){
 
     if( !head ) return;
 
@@ -484,4 +490,4 @@ void ll::LinkedList::seperate(Node *head, Node **b){
 
 
 
-#endif //CPPCOURSE_LINKEDLIST_H
+#endif //CPPCOURSE_LLUTIL_H
