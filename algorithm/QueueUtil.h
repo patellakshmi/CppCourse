@@ -8,6 +8,7 @@
 
 #ifndef CPPCOURSE_QUEUEUTIL_H
 #define CPPCOURSE_QUEUEUTIL_H
+
 namespace q {
 
     class QueueUtil{

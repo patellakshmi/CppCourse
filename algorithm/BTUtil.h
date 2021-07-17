@@ -66,10 +66,6 @@ namespace bt {
 };
 
 
-
-
-
-
 void bt::BTUtil::inorderPredecessor(Node *root, Node *target, Node *&next){
     if( !root ) return;
 

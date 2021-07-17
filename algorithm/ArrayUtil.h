@@ -513,11 +513,7 @@ void au::ArrayUtil::rotateLeftMatrix(vector<vector<int>> &mat) {
         }
     }
 
-
-
 }
-
-
 
 
 #endif //CPPCOURSE_ARRAYUTIL_H
